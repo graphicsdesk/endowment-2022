@@ -6,13 +6,103 @@
     "posthtml-expressions": {
       "root": "./src/partials",
       "locals": {
-        "top": [],
-        "body": [],
+        "top": [
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "linechart.html"
+            }
+          }
+        ],
+        "body": [
+          {
+            "type": "text",
+            "value": "Columbia has posted a decreased endowment return of 7.6 percent for fiscal year 2022, bringing the endowment to $13.3 billion as of June 30, the University announced in a <a href=\"https://www.finance.columbia.edu/content/imc-ceo-statement-fy22-endowment-returns\">news release</a> Wednesday afternoon."
+          },
+          {
+            "type": "text",
+            "value": "The endowment ended the fiscal year over a billion dollars lower than last year’s record-high of $14.35 billion. This is the first year the University has reported negative investment returns on its endowment since 2016."
+          },
+          {
+            "type": "text",
+            "value": "Columbia’s endowment funding is used by the University to support financial aid, academic programs, and faculty research, among other endeavors. As of June 2021, <a href=\"https://www.columbiaspectator.com/news/2022/02/23/new-study-gives-clearer-picture-of-how-columbias-endowment-lags-behind-peer-institutions/\">Columbia</a> had the smallest endowment-to-student ratio of the eight Ivy League schools, a ratio which forces it to rely to a greater extent than its peers on other sources of revenue, such as tuition, and makes expenses such as financial aid harder to bear."
+          },
+          {
+            "type": "text",
+            "value": "Only five of the eight Ivy League schools have yet released endowment reports for the fiscal year as of Wednesday night, but the available data shows Columbia trailing behind its peer institutions for the second year in a row. With the University of Pennsylvania reporting<i> </i>a loss of 0.01 percent, Yale University and Cornell University each reporting endowment losses of 2 percent, and Dartmouth College reporting a loss of 5 percent, Columbia shows the worst endowment loss of 2022 so far by 2.6 percentage points."
+          },
+          {
+            "type": "text",
+            "value": "Last year brought record-high returns across the Ivy League. Although Columbia reported a remarkable endowment return of 32.3 percent and total growth of $3.05 billion, the University saw the lowest return on investment of all eight Ivies."
+          },
+          {
+            "type": "text",
+            "value": "<i>[Read more: </i><a href=\"https://www.columbiaspectator.com/news/2021/10/27/columbia-endowment-soars-up-323-percent-to-1435-billion-as-markets-recover-from-covid-19-recession/\"><i>Columbia endowment soars up 32.3 percent to $14.35 billion as markets recover from COVID-19 recession</i></a><i>.]</i>"
+          },
+          {
+            "type": "text",
+            "value": "The University’s previous 10-year average return was 9.9 percent. The new returns, however,  brought that average down to 8.8 percent."
+          },
+          {
+            "type": "text",
+            "value": "“Many of the investments that outperformed over the past few years suffered steep declines,” Columbia Investment Management Company President and CEO Kim Lew said in the release. “We are actively continuing the work we began over a year ago to reposition the portfolio, at more reasonable valuations.”"
+          },
+          {
+            "type": "text",
+            "value": "This repositioning of the portfolio refers to the changes in investing Lew began making when she started her position in October 2020. In <a href=\"https://www.finance.columbia.edu/content/imc-ceo-statement-fy21-endowment-returns#:~:text=The%20total%20value%20of%20the,portfolio%20for%20the%20fiscal%20year\">her statement</a> on last year’s endowment report, she noted the “fundamentally different risk profile” of Columbia’s endowment, hoping to improve investment returns in the long run with new investments. She noted that “new investments will take years to benefit the institution.”"
+          },
+          {
+            "type": "text",
+            "value": "The last time Columbia reported negative returns on investment was fiscal year 2016, when the endowment lost almost $600 million, a decrease of 6.5 percent. This year’s returns are the worst the University has seen since the recession in the late 2000s, when the endowment suffered a 21 percent decline for fiscal year 2009."
+          },
+          {
+            "type": "text",
+            "value": "The loss is unexpectedly dramatic, according to a <a href=\"https://www.wilshire.com/press-releases/wilshire-trust-universe-comparison-service-reports-worst-quarter-since-covid-19-shutdown-with-9-63-percent\">preliminary report</a> released in August by the investment management company, Wilshire, that showed median losses of endowments over $1 billion to be a decrease of 1.15 percent, with smaller losses for more wealthy institutions. As peer institution reports roll in and stay close to this median, it appears Columbia is an outlier."
+          },
+          {
+            "type": "text",
+            "value": "The announcement notes the University’s <a href=\"https://provost.columbia.edu/news/enhancements-undergraduate-financial-aid-2022-2023-academic-year\">recent expansion</a> of its financial aid program for Columbia College, the School of Engineering and Applied Science, and the School of General Studies as a contributing factor to endowment losses."
+          },
+          {
+            "type": "text",
+            "value": "Though Columbia’s negative return is particularly considerable, colleges and universities across the country have been bracing for endowment losses. In the months leading up to June, rising interest rates and inflation caused concern among investors, particularly those with investments in venture capital and private equity."
+          },
+          {
+            "type": "text",
+            "value": "Even institutions that see positive returns are likely to fall below the national <a href=\"https://www.nacubo.org/Press-Releases/2022/Endowments-Post-Strong-Returns-During-the-Pandemic-But-See-Inflation-as-Emerging-Challenge\">target annual return</a> of 7.94 percent, a standard as of June 2021 set by the National Association of College and University Business Officers and the Teachers Insurance and Annuity Association of America. This target is the calculated minimum return which endowment investments must meet in order to avoid losses from inflation, spending requirements, fees, and expenses."
+          },
+          {
+            "type": "text",
+            "value": "<i>[Read more: </i><a href=\"https://www.columbiaspectator.com/news/2020/05/24/columbia-wants-the-best-and-the-brightest-students-to-keep-up-with-top-ranked-schools-it-needs-the-richest-too-2/\"><i>Columbia wants the best and brightest students. To keep up with top-ranked schools, it needs the richest too</i></a><i>.] </i>"
+          },
+          {
+            "type": "text",
+            "value": "Columbia is less reliant on the endowment than its peers: according to the University’s website, roughly 12 percent of Columbia’s annual budget comes from the endowment, compared to 33 percent at Yale and 39 percent at Harvard University for fiscal year 2021. Instead, the University has a comparatively heavy reliance on tuition, which for undergraduates currently sits at nearly $86,000 per year."
+          },
+          {
+            "type": "text",
+            "value": "<i>Staff writer Shea Vance can be contacted at </i><a href=\"mailto:shea.vance@columbiaspectator.com\"><i>shea.vance@columbiaspectator.com</i></a><i>. Follow her on Twitter </i><a href=\"https://twitter.com/sheavance22\"><i>@SheaVance22</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Graphics Editor Andrew Park can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>. Follow her on Twitter </i><a href=\"https://twitter.com/androo_park?lang=gu\"><i>@androo_park</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter </i></b></a><b><i>and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a><b><i>. </i></b>"
+          }
+        ],
+        "headline": "Endowment suffers more than $1B in losses as Columbia reports negative returns",
+        "date": "October 13, 2022",
+        "byline1": "By <a href=\"https://www.columbiaspectator.com/contributors/Shea-Vance/\">Shea Vance</a>",
+        "byline2": "Graphics by <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+        "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UNFFEY4WFFB7HI2XS5IEUNAEPI.jpg",
+        "cover_caption": "Photo by Anna Fedorova",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
-        "USE_COVER_HED": false,
+        "USE_COVER_HED": true,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1Ep36nLcOFFYtIA_MPN9efPKZ0vz919qLXkb-J-CDiAQ/edit"
       }
     }
   }
