@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Scrollama: Sticky Side Example</title>
+    <meta name="description" content="Scrollama: Sticky Side Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+    #scrolly {
+        position: relative;
+        padding: 1rem;
+      }
+    .anno{
+      font-size:14px;
+      font-family: 'Roboto', sans-serif;
+    }
+      .xlabel{
+        font-size:15px;
+        font-family: 'Roboto', sans-serif;
+      }
+      .ylabel{
+        font-size:15px;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      article {
+        position: relative;
+        padding: 0;
+        max-width: 20rem;
+        margin: 0 auto;
+      }
+      
+      .tick{
+      font-size:14px;
+    }
+
+      .sticky-thing {
+        margin-top:5vh;
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        z-index: 0;
+        top: 12.5vh;
+        height: 75vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .sticky-thing p {
+        font-size: 8rem;
+        font-weight: 900;
+        color: #fff;
+      }
+
+      .step:first-child{
+        margin-top:0vh;
+      }
+      .step {
+        margin: 0;
+        margin-top:35vh;
+        margin-bottom:35vh;
+        margin-left:0;
+        margin-right:0;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step.is-active p {
+        background-color: #fffcad;
+        color: #3b3b3b;
+      }
+
+      .step p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 17px;
+        background-color:#fff;
+        opacity:1;
+      }
+
+      #last{
+        opacity:0;
+      }
+      main{
+        margin-bottom:7.5vh;
+      }
+      
+      @media only screen and (max-width:849px) {
+      .tick text{
+        font-size:12px;
+      }
+      .xlabel{
+        font-size:12px;
+      }
+      .ylabel{
+        font-size:12px;
+      }
+      .step p{
+        font-size:14.5px;
+      }
+      }
+      @media only screen and (max-width:650px){
+        #anno1{
+          font-size:10px;
+        }
+        #anno2{
+          font-size:10px;
+          transform:translateX(-10px);
+        }
+      }
+      @media only screen and (max-width:600px) {
+      .tick text{
+        font-size:11px;
+      }
+      .ylabel{
+        transform:translateX(+30px);
+      }
+      }
+      @media only screen and (max-width:470px) {
+      .tick text{
+        font-size:10px;
+      }
+      #anno1{
+        font-size:8px;
+      }
+      #anno2{
+        font-size:8px;
+      }
+        .ylabel{
+        transform:translateX(+50px);
+      }
+    }
+   
+    </style>
+  </head>
+
+  <body>
+    <main>
+
+      <section id="scrolly">
+        <div class="sticky-thing">
+        </div>
+
+        <article>
+          <div class="step" data-step="1">
+            <p>In 2011, Columbia's endowment sat at $7.7 billion.</p>
+          </div>
+          <div class="step" data-step="2">
+            <p>Barring a $0.1 billion decrease in the following year, the endowment steadily increased until 2015, when it reached $9.6 billion.</p>
+          </div>
+          <div class="step" data-step="3">
+            <p>In the following year, however, Columbia's endowment decreased to an even $9 billion.</p>
+          </div>
+          <div class="step" data-step="4" id="last">
+            <p></p>
+          </div>
+          <div class="step" data-step="5">
+            <p>Since then, Columbia's endowment had once again continued to increase, with the school seeing a 27 percent increase between 2020 and 2021, a $3 billion jump.</p>
+          </div>
+          <div class="step" data-step="6">
+            <p>This year, however, Columbia's endowment took a big hit, with the school losing over a billion dollars in endowment.</p>
+          </div>
+          <div class="step" data-step="7">
+            <p>The school reported a 7.6 percent decrease in endowment, a figure much bigger than the losses reported by any other Ivy that has reported their endowment this year.</p>
+          </div>
+          <div class="step" data-step="8" id="last">
+            <p> </p>
+          </div>
+          <div class="step" data-step="9" id="last">
+            <p> </p>
+          </div>
+        </article>
+
+
+        
+
+        
+      </section>
+
+    </main>
+
+    <!-- <div class='debug'></div> -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="./scripts/scrollscript.js"></script>
+  </body>
+</html>
