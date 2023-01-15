@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="styles.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
     #scrolly {
         position: relative;
@@ -17,15 +16,12 @@
       }
     .anno{
       font-size:14px;
-      font-family: 'Roboto', sans-serif;
     }
       .xlabel{
         font-size:15px;
-        font-family: 'Roboto', sans-serif;
       }
       .ylabel{
         font-size:15px;
-        font-family: 'Roboto', sans-serif;
       }
 
       article {
@@ -95,21 +91,24 @@
         opacity:0;
       }
       main{
-        margin-bottom:7.5vh;
+        margin-bottom:10vh;
       }
       
-      @media only screen and (max-width:849px) {
+      @media only screen and (max-width:1000px) {
       .tick text{
         font-size:12px;
       }
       .xlabel{
-        font-size:12px;
+        font-size:14px;
       }
       .ylabel{
-        font-size:12px;
+        font-size:14px;
       }
       .step p{
         font-size:14.5px;
+      }
+      .schoollabel{
+        font-size:12px;
       }
       }
       @media only screen and (max-width:650px){
@@ -125,13 +124,13 @@
       .tick text{
         font-size:11px;
       }
-      .ylabel{
-        transform:translateX(+30px);
+      .schoollabel{
+        font-size:11px;
       }
       }
       @media only screen and (max-width:470px) {
       .tick text{
-        font-size:10px;
+        font-size:8px;
       }
       #anno1{
         font-size:8px;
@@ -139,8 +138,8 @@
       #anno2{
         font-size:8px;
       }
-        .ylabel{
-        transform:translateX(+50px);
+      .schoollabel{
+        font-size:10px;
       }
     }
    
@@ -174,12 +173,18 @@
             <p>This year, however, Columbia's endowment took a big hit, with the school losing over a billion dollars in endowment.</p>
           </div>
           <div class="step" data-step="7">
-            <p>The school reported a 7.6 percent decrease in endowment, a figure much bigger than the losses reported by any other Ivy that has reported its endowment this year.</p>
+            <p>Or approximately a 7.6 percent decrease in endowment returns.</p>
           </div>
-          <div class="step" data-step="8" id="last">
+          <div class="step" data-step="8">
+            <p>This figure is much bigger than the losses reported by any other Ivy that has reported its endowment this year.</p>
+          </div>
+          <div class="step" data-step="9">
+            <p>As of Oct. 14, Princeton is the only Ivy to not have released its endowment numbers for 2022.</p>
+          </div>
+          <div class="step" data-step="10" id="last">
             <p> </p>
           </div>
-          <div class="step" data-step="9" id="last">
+          <div class="step" data-step="11" id="last">
             <p> </p>
           </div>
         </article>

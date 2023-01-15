@@ -17,6 +17,10 @@
         "body": [
           {
             "type": "text",
+            "value": "<i>Updated Oct. 14 at 6:05 p.m.</i>"
+          },
+          {
+            "type": "text",
             "value": "Columbia has posted a decreased endowment return of 7.6 percent for fiscal year 2022, bringing the endowment to $13.3 billion as of June 30, the University announced in a <a href=\"https://www.finance.columbia.edu/content/imc-ceo-statement-fy22-endowment-returns\">news release</a> Wednesday afternoon."
           },
           {
@@ -64,6 +68,12 @@
             "value": "The announcement notes the University’s <a href=\"https://provost.columbia.edu/news/enhancements-undergraduate-financial-aid-2022-2023-academic-year\">recent expansion</a> of its financial aid program for Columbia College, the School of Engineering and Applied Science, and the School of General Studies as a contributing factor to endowment losses."
           },
           {
+            "type": "graphic",
+            "value": {
+              "asset": "datawrapper.html"
+            }
+          },
+          {
             "type": "text",
             "value": "Though Columbia’s negative return is particularly considerable, colleges and universities across the country have been bracing for endowment losses. In the months leading up to June, rising interest rates and inflation caused concern among investors, particularly those with investments in venture capital and private equity."
           },
@@ -85,7 +95,7 @@
           },
           {
             "type": "text",
-            "value": "<i>Graphics Editor Andrew Park can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>. Follow her on Twitter </i><a href=\"https://twitter.com/androo_park?lang=gu\"><i>@androo_park</i></a><i>.</i>"
+            "value": "<i>Graphics Editor Andrew Park can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>. Follow him on Twitter </i><a href=\"https://twitter.com/androo_park?lang=gu\"><i>@androo_park</i></a><i>.</i>"
           },
           {
             "type": "text",
